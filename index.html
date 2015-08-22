@@ -10,6 +10,12 @@
 		<h3>{{ answer(userInput) }}</h3>
 		<input type="text" ng-model="name">
 	</div>
+	<hr />
+	<div ng-controller="StringReverse">
+		<h2>Reverse your string</h2>
+		<input type="text" ng-model="usersStringToReverse">
+		<p>{{ strReverse(usersStringToReverse) }}</p>
+	</div>
 	
 	<script src="js/angular.min.js"></script>
 	<script src="js/app.js"></script>
